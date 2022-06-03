@@ -389,6 +389,363 @@ WHERE column_name expression operator  <br>
 ### Day 16: 16 March 2022
 ## SQL ASSESSMENT
 
-### Day 17: 1 March 2022
+### Day 17: 17 March 2022
+## BASICS OF JAVA PROGRAMMING
+What is Java? <br>
+Java is a popular programming language, created in 1995.  <br>
+It is owned by Oracle, and more than 3 billion devices run Java.  <br>  
+It is used for:
+- Mobile applications (specially Android apps)
+- Desktop applications
+- Web applications
+- Web servers and application servers
+- Games
+- Database connection
+- And much, much more!
+
+Why Use Java?  <br>
+- Java works on different platforms (Windows, Mac, Linux, Raspberry Pi, etc.)
+- It is one of the most popular programming language in the world
+- It is easy to learn and simple to use
+- It is open-source and free
+- It is secure, fast and powerful
+- It has a huge community support (tens of millions of developers)
+- Java is an object oriented language which gives a clear structure to programs and allows code to be reused, lowering - development costs
+- As Java is close to C++ and C#, it makes it easy for programmers to switch to Java or vice versa
+
+Java Syntax:
+- Main.java  
+public class Main {  <br>
+  public static void main(String[] args) {  <br>
+    System.out.println("Hello World");  <br>
+  }  <br>
+}
+
+- The main Method   
+public static void main(String[] args)
+
+- System.out.println()  
+public static void main(String[] args) {  <br>
+  System.out.println("Hello World");  <br>
+}  <br>
+
+Java Variables: <br>
+A variable is a container which holds the value while the Java program is executed.  <br>
+A variable is the name of a reserved area allocated in memory. In other words, it is a name of the memory location. It is a combination of "vary + able" which means its value can be changed.  <br>
+
+Types of Variables: <br>
+There are three types of variables in Java:
+- Local Variable
+A variable declared inside the body of the method is called local variable. You can use this variable only within that method and the other methods in the class aren't even aware that the variable exists. <br>
+A local variable cannot be defined with "static" keyword.
+
+- Instance Variable
+A variable declared inside the class but outside the body of the method, is called an instance variable. It is not declared as static
+
+- Static variable
+A variable that is declared as static is called a static variable. It cannot be local. You can create a single copy of the static variable and share it among all the instances of the class. Memory allocation for static variables happens only once when the class is loaded in the memory.
+
+Data Types: <br>
+Java defines eight simple (or elemental) types of data: byte, short, int, long, char, float,double,
+and boolean. <br>
+These can be put in four groups: 
+- Integers: This group includes byte, short, int, and long, which are for whole valued signed numbers.
+- Floating-point numbers: This group includes float and double, which represent numbers with
+fractional precision.
+- Characters: This group includes char, which represents symbols in a character set, like letters
+and numbers.
+- Boolean: This group includes boolean, which is a special type for representing true/false
+values
+
+### Day 18: 21 March 2022
+## CONDITIONAL STATEMENTS, LOOPS AND OOPS CONCEPT
+CONDITIONAL STATEMENTS: <br>
+- if:  
+if(condition)  <br>
+{ <br>
+   // Statements to execute if <br>
+   // condition is true <br>
+} <br>
+
+- if-else:  
+if (condition) <br>
+{ <br>
+    // Executes this block if <br>
+    // condition is true <br>
+} <br>
+else <br>
+{ <br>
+    // Executes this block if <br>
+    // condition is false <br>
+} <br>
+
+- Nested if-else-if:  
+if (condition) <br>
+    statement; <br>
+else if (condition) <br>
+    statement; <br>
+. <br>
+. <br>
+else <br>
+    statement; <br>
+
+- Switch:  
+switch (expression) <br>
+{ <br>
+  case value1: <br>
+    statement1; <br>
+    break; <br>
+  case value2: <br>
+    statement2; <br>
+    break; <br>
+  . <br>
+  . <br>
+  case valueN: <br>
+    statementN; <br>
+    break; <br>
+  default: <br>
+    statementDefault;<br>
+}<br>
+
+- Break: 
+In Java, a break is majorly used for:  <br>
+Terminate a sequence in a switch statement (discussed above). <br>
+To exit a loop. <br>
+Used as a “civilized” form of goto.
+
+- Continue: 
+Sometimes it is useful to force an early iteration of a loop. That is, you might want to continue running the loop but stop processing the remainder of the code in its body for this particular iteration.
+
+- Return: 
+The return statement is used to explicitly return from a method. That is, it causes program control to transfer back to the caller of the method.
+
+LOOPS:
+- For loop:  
+for(initializing statement;testing condition;increment/decrement) <br>
+{ <br>
+//code to be iterated <br>
+} <br>
+
+- While:  
+while(boolean condition) <br>
+{ <br>
+//statements; <br>
+} <br>
+
+- Do-While:  
+do{   <br>
+//code to be executed / loop body   <br>
+//update statement    <br>
+}while (condition); <br>
+
+OOPS CONCEPTS: <br>
+The primary purpose of object-oriented programming is to increase the flexibility and maintainability of programs.
+- class: <br>
+A class is a template for multiple objects with similar features. Classes embody all the features of a particular set of objects.
+Syntax: <br>
+class MyClassName { <br>
+... <br>
+
+- object: <br>
+An object in java is an identifiable entity that has some characteristics and behavior. We create objects from class in Java.
+Syntax: <br>
+< className > <objectName > =new < className> (); <br>
+Object in Java can be created in any of the following ways using:
+   - new operator
+   - new instance
+   - clone() method
+   - deserialization  
+ 
+- Polymorphism: <br>
+It is an important concept of object-oriented programming. It simply means more than one form.
+That is, the same entity (method or operator or object) can perform different operations in different scenarios. 
+ 
+- Inheritance: <br>
+It is one of the key features of OOP that allows us to create a new class from an existing class.
+The new class that is created is known as subclass (child or derived class) and the existing class from where the child class is derived is known as superclass (parent or base class).
+ 
+- Abstraction: <br>
+Hiding internal details and showing functionality is known as abstraction. For example phone call, we don't know the internal processing.
+ 
+- Encapsulation: <br>
+Binding (or wrapping) code and data together into a single unit are known as encapsulation. For example, a capsule, it is wrapped with different medicines.
+
+### Day 19: 22 March 2022
+## IMPORTANT CONCEPTS
+ 
+- ARRAY: <br>
+An array in Java is a linear and homogeneous collection of the same type of elements. In array, there is contiguous memory allocation. An array is basically a group of similar variables referred under a common name. An array is a user-defined data type. <br>  
+Syntax of array: <br>
+int intArray[];  //declaring array <br>
+intArray = new int[20];  // allocating memory to array <br>  
+There are two types of arrays in Java:
+   - One-dimensional arrays
+   - Multi-dimensional arrays <br>  
+ 
+- STRING: <br>
+There are many ways to create a string object in java, some of the popular ones are given below.<br> 
+   - Using string literal <br> 
+    String str = "abc"; 
+
+   - Using new keyword <br> 
+    String str  =  new String("abc"); <br> 
+    char[] a = {'a', 'b', 'c'}; <br> 
+    String str2  =  new String(a); <br> 
+
+- CONSTRUCTOR: <br>
+A Constructor in Java is a block of code that creates an object. Therefore, it is also called an object builder in Java. The constructor is very similar to a Java method. The main difference between them is that a constructor does not have a return type, not even void, unlike methods. <br>  
+There are two types of constructors in Java:
+  - Default constructor
+  - Parameterized constructor
+
+- METHOD OVERRIDING: <br>
+In method overriding, the child class can use the OOP polymorphism concept to override a method of its parent class. That allows a programmer to use one method in different ways depending on whether it’s invoked by an object of the parent class or an object of the child class.
+
+- METHOD OVERLOADING: <br>
+In method overloading, a single method may perform different functions depending on the context in which it’s called. This means a single method name might work in different ways depending on what arguments are passed to it.
+
+- INTERFACE: <br>
+A collection of abstract behavior specifications that individual classes can then implement.<br>
+Syntax: <br>
+interface < interfaceName > { <br>
+  //static functions <br>
+  //abstract methods <br>
+} <br>
+
+- PACKAGE: <br>
+ A collection of classes and interfaces. Classes from packages other than java.lang must be explicitly imported or referred to by full package name.
 
 
+### Day 20: 23 March 2022
+## keywords
+- Static keyword: <br>
+   - The static keyword in java is used for memory management mainly.
+   - Static member of class belongs to class itself instead of the class object.
+   - Constructor cannot be static.
+   - A static variable gets memory only once in the class area at the time of class loading.
+
+- This keyword: <br>
+This keyword in Java is a reference variable that refers to the current object of a method or a constructor. The main purpose of using this keyword in Java is to remove the confusion between class attributes and parameters that have same names. <br>
+Following are various uses of ‘this’ keyword in Java: <br>
+   - It can be used to refer instance variable of current class
+   - It can be used to invoke or initiate current class constructor
+   - It can be passed as an argument in the method call
+   - It can be passed as argument in the constructor call
+   - It can be used to return the current class instance.
+
+- Final keyword: <br>
+The final keyword in java is used to restrict the user.
+    - Java final variable
+      If you make any variable as final, you cannot change the value of final variable(It will be constant).
+    - Java final method
+      If you make any method as final, you cannot override it.
+    - Java final class
+      If you make any class as final, you cannot extend it.
+
+- Super keyword: <br>
+The super keyword in Java is used in subclasses to access superclass members (attributes, constructors and methods). <br>
+Uses of super keyword-
+   - To call methods of the superclass that is overridden in the subclass.
+   - To access attributes (fields) of the superclass if both superclass and subclass have attributes with the same name.
+   - To explicitly call superclass no-arg (default) or parameterized constructor from the subclass constructor.
+
+### Day 21: 24 March 2022
+## EXCEPTIONAL HANDLING
+ 
+Java Exceptions: <br>
+An exception is an unexpected event that occurs during program execution. It affects the flow of the program instructions which can cause the program to terminate abnormally. <br>
+An exception can occur for many reasons. Some of them are:
+- Invalid user input
+- Device failure
+- Loss of network connection
+- Physical limitations (out of disk memory)
+- Code errors
+- Opening an unavailable file
+ 
+Java Exception Types:
+1. RuntimeException <br>
+A runtime exception happens due to a programming error. They are also known as unchecked exceptions. <br>
+These exceptions are not checked at compile-time but run-time.<br>
+Some of the common runtime exceptions are:
+ - Improper use of an API - IllegalArgumentException
+ - Null pointer access (missing the initialization of a variable) - NullPointerException
+ - Out-of-bounds array access - ArrayIndexOutOfBoundsException
+ - Dividing a number by 0 - ArithmeticException
+2. IOException <br>
+An IOException is also known as a checked exception. They are checked by the compiler at the compile-time and the programmer is prompted to handle these exceptions. <br>
+Some of the examples of checked exceptions are:
+  - Trying to open a file that doesn’t exist results in FileNotFoundException
+  - Trying to read past the end of a file
+ 
+**Java try...catch block:** <br>
+The try-catch block is used to handle exceptions in Java.<br>
+ 
+Here's the syntax of try...catch block: <br>
+try { <br>
+  // code <br>
+} <br>
+catch(Exception e) { <br>
+  // code <br>
+} <br>
+
+**Java finally block:** <br>
+In Java, the finally block is always executed no matter whether there is an exception or not. The finally block is optional. And, for each try block, there can be only one finally block.<br>
+ 
+The basic syntax of finally block is: <br>
+try { <br>
+  //code <br>
+} <br>
+catch (ExceptionType1 e1) {  <br>
+  // catch block <br>
+} <br>
+finally { <br>
+  // finally block always executes <br>
+} <br>
+
+**Java throw and throws keyword:** <br>
+The Java throw keyword is used to explicitly throw a single exception.When we throw an exception, the flow of the program moves from the try block to the catch block. <br>
+ 
+Example: Exception handling using Java throw <br>
+class Main { <br>
+  public static void divideByZero() { <br>
+
+    // throw an exception <br>
+    throw new ArithmeticException("Trying to divide by 0"); <br>
+  } <br>
+
+  public static void main(String[] args) { <br>
+    divideByZero(); <br>
+  } <br>
+} <br>
+ 
+Syntax of **Nested try Catch...**<br>
+//Main try block <br>
+try { <br>
+   statement 1; <br>
+   statement 2; <br>
+   //try-catch block inside another try block <br>
+   try { <br>
+      statement 3; <br>
+      statement 4; <br>
+      //try-catch block inside nested try block <br>
+      try { <br>
+         statement 5; <br>
+         statement 6; <br>
+      } <br>
+      catch(Exception e2) { <br>
+         //Exception Message <br>
+      } <br>
+   } <br>
+   catch(Exception e1) { <br>
+       //Exception Message <br>
+   } <br>
+   
+} <br>
+//Catch of Main(parent) try block <br>
+catch(Exception e3) { <br>
+      //Exception Message  <br>
+}  <br>
+....  <br>
+
+### Day 22: 25 March 2022
+## JAVA ASSESSMENT
