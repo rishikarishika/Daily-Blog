@@ -1717,7 +1717,7 @@ Some key points for reporting:
 - Along with result if a performance tester detects any performance bottleneck then he raises the defect and assigns to the respective team for further investigation on the root cause. The root cause analysis activity is basically a team effort wherein the performance tester, system administrators, technical experts and DBA play a vital role. The test execution and bottleneck analysis activities are cyclic in nature.
 
 ### Day 48: 4 May 2022
-## Terminologies in Jmeter:-
+## TERMINOLOGIES IN JMETER:-
 - Test Plan
 - ThreadGroup
 - Samplers
@@ -1876,28 +1876,28 @@ If you're using smoke testing software from Perforce, your script would be simil
 4. Clean Up. <br> 
 After the smoke test, you need to clean up. This might include stopping a server, deleting files, or emptying database tables. This could also be done before the initial setup step to ensure that the environment is clean before any tests are started.<br>
  
-h)Logic Controllers And Timers
-Logic controllers and timers help Jmeter control the flow of transactions. Timers ensure the delay in each thread if need to test any server. For Example, if we need FTP request to wait for 5 secs after HTTP request is completed, we can add timer there.
+h)Logic Controllers And Timers  <br> 
+Logic controllers and timers help Jmeter control the flow of transactions. Timers ensure the delay in each thread if need to test any server. For Example, if we need FTP request to wait for 5 secs after HTTP request is completed, we can add timer there.  <br> 
 
-Logic Controllers are used to defining the flow of requests which are sent to the server. It can also let you store requests for each module separately such as login and logout.
+Logic Controllers are used to defining the flow of requests which are sent to the server. It can also let you store requests for each module separately such as login and logout.  <br> 
 
 ### Day 52:  10 May 2022
 ## LR AND JMETER REVISION SESSIONS
 
-### Day 53 - 58 : 11 May 2022 - 18 May 2022
+### Day 53 - 58: 11 May 2022 - 18 May 2022
 ## PROJECT DELIVERABLES
  
 ### DAY 59: 19 May 2022
-## CC1 JMETER
+## Code Challenge1 (CC1) JMETER 
  
 ### DAY 60: 20 May 2022
-## CC2 JMETER
+## Code Challenge2 (CC2) JMETER
  
 ### DAY 61: 21 May 2022
-## CC3 JMETER
+## Code Challenge3 (CC3) JMETER
  
 ### DAY 62: 22 May 2022
-## CC4 JMETER
+## Code Challenge4 (CC4) JMETER
  
 ### DAY 63: 25 May 2022
-## ICT JMETER
+## Integrated Capability Test (ICT) JMETER
